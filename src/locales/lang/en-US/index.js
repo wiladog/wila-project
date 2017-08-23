@@ -13,7 +13,4 @@ const enLang = {
 
 const mergeEN = Object.assign(enLocale, enLang);
 
-
-// console.info(mergeEN);
-
 export default mergeEN;

@@ -2,9 +2,6 @@
 import zhLocale from 'iview/src/locale/lang/zh-CN';
 import pay from './pay';
 
-
-// console.info(zhLocale);
-
 const zhLang = {
 	pay,
 	desc:'基于vue和iview的项目模板',
@@ -21,8 +18,4 @@ const zhLang = {
 }
 
 const mergeZH = Object.assign(zhLocale, zhLang);
-
-
-console.info(mergeZH);
-
 export default mergeZH;
